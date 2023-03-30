@@ -1,0 +1,101 @@
+:root {
+    --frimary-font:'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: var(--frimary-font);
+
+
+}
+
+/* Header styles */
+
+.header {}
+
+.header-nav {}
+
+.header-logo-link {}
+
+.header-list {}
+
+.header-item {}
+
+.header-link {}
+
+.header-contacts-list {}
+
+.header-contacts-item {}
+
+.header-contact {}
+
+/* Hero styles */
+
+.hero {}
+
+.hero-title {}
+
+.hero-btn {}
+
+/* About styles */
+
+.about {}
+
+.about-list {}
+
+.about-item {}
+
+.about-text {}
+
+/* Portfolio styles */
+
+.portfolio {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-img {}
+
+/* Team styles */
+
+.team {}
+
+.team-list {}
+
+.team-item {}
+
+.team-img {}
+
+.team-text {}
+
+/* Footer styles */
+
+.footer-logo-link {}
+
+.footer-text {}
+
+/* =================== */
+/* Portfolio Page */
+
+/* Portfolio filters styles */
+
+.portfolio-filters {}
+
+.portfolio-filters-list {}
+
+.portfolio-filters-item {}
+
+.portfolio-filters-btn {}
+
+
+/* Portfolio works styles */
+.portfolio-works {}
+
+.portfolio-works-list {}
+
+.portfolio-works-item {}
+
+.portfolio-works-img {}
+
+.portfolio-works-text {}
