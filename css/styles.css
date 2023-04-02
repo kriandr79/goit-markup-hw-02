@@ -1,7 +1,6 @@
 :root {
   --frimary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
@@ -112,6 +111,7 @@ body {
 }
 
 .hero-btn {
+  font-family: var(--frimary-font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -126,7 +126,7 @@ body {
   cursor: pointer;
 }
 .hero-btn:hover {
-  background: var(--ocean);
+  background-color: var(--ocean);
 }
 
 /* About styles */
@@ -273,6 +273,8 @@ body {
 
 /* Portfolio filters styles */
 
+.portfolio-page-title {
+}
 .portfolio-filters {
 }
 
@@ -283,6 +285,24 @@ body {
 }
 
 .portfolio-filters-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.portfolio-filters-btn:hover,
+.portfolio-filters-btn:active {
+  background-color: var(--ocean);
+  color: var(--white);
 }
 
 /* Portfolio works styles */
@@ -293,10 +313,27 @@ body {
 }
 
 .portfolio-works-item {
+  background-color: var(--white);
+  border: 1px solid var(--cornflower);
 }
 
 .portfolio-works-img {
 }
-
+.portfolio-works-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
 .portfolio-works-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
