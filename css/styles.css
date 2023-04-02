@@ -39,12 +39,13 @@ body {
 }
 
 .header-logo-link {
-  font-family: "Raleway";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   /* identical to box height, or 117% */
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -66,6 +67,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
+.header-link:hover,
+.header-link:active {
+  color: var(--ocean);
+}
+
+.header-adress {
+  font-style: normal;
+}
 
 .header-contacts-list {
 }
@@ -74,12 +83,15 @@ body {
 }
 
 .header-contact-link {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+.header-contact-link:hover,
+.header-contact-link:active {
+  color: var(--ocean);
 }
 
 /* Hero styles */
@@ -92,7 +104,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   /* or 107% */
   text-align: center;
   letter-spacing: 0.02em;
@@ -100,6 +112,7 @@ body {
 }
 
 .hero-btn {
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -112,6 +125,10 @@ body {
   background: var(--iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.hero-btn:hover {
+  cursor: pointer;
+  background: var(--ocean);
 }
 
 /* About styles */
@@ -175,13 +192,14 @@ body {
 /* Team styles */
 
 .team {
+  background: var(--cloud);
 }
 
 .team-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   /* identical to box height, or 111% */
   text-align: center;
   letter-spacing: 0.02em;
@@ -193,6 +211,7 @@ body {
 }
 
 .team-item {
+    background:var(--white);
 }
 
 .team-img {
@@ -202,7 +221,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   /* identical to box height, or 120% */
   text-align: center;
   letter-spacing: 0.02em;
@@ -213,7 +232,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5px;
   /* identical to box height, or 150% */
   text-align: center;
   letter-spacing: 0.02em;
@@ -222,12 +241,16 @@ body {
 
 /* Footer styles */
 
+.footer {
+    background:var(--navy-blue);
+}
+
 .footer-logo-link {
-  font-family: "Raleway";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   /* identical to box height, or 117% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -241,7 +264,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   /* or 150% */
   letter-spacing: 0.02em;
   color: var(--cloud);
