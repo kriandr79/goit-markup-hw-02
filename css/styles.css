@@ -67,7 +67,7 @@ body {
   color: var(--navy-blue);
 }
 .header-link:hover,
-.header-link:active {
+.header-link:focus {
   color: var(--ocean);
 }
 
@@ -88,8 +88,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.header-contact-link:hover,
-.header-contact-link:active {
+.header-contact-link:hover, .header-contact-link:focus {
   color: var(--ocean);
 }
 
@@ -300,7 +299,7 @@ body {
 }
 
 .portfolio-filters-btn:hover,
-.portfolio-filters-btn:active {
+.portfolio-filters-btn:focus {
   background-color: var(--ocean);
   color: var(--white);
 }
