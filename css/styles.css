@@ -284,6 +284,7 @@ body {
 }
 
 .portfolio-filters-btn {
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -314,6 +315,10 @@ body {
 .portfolio-works-item {
   background-color: var(--white);
   border: 1px solid var(--cornflower);
+}
+
+.portfolio-works-item-link {
+  
 }
 
 .portfolio-works-img {
