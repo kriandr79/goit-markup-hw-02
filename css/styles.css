@@ -39,7 +39,6 @@ body {
 
 .header-logo-link {
   font-family: var(--secondary-font);
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -82,7 +81,6 @@ body {
 }
 
 .header-contact-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -99,7 +97,6 @@ body {
 }
 
 .hero-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -111,7 +108,6 @@ body {
 
 .hero-btn {
   font-family: var(--frimary-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -141,8 +137,6 @@ body {
 }
 
 .about-item-header {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -152,8 +146,6 @@ body {
 }
 
 .about-item-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   /* or 150% */
@@ -167,7 +159,6 @@ body {
 }
 
 .portfolio-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -194,7 +185,6 @@ body {
 }
 
 .team-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -216,7 +206,6 @@ body {
 }
 
 .team-item-header {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -227,8 +216,6 @@ body {
 }
 
 .team-item-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
@@ -245,7 +232,6 @@ body {
 
 .footer-logo-link {
   font-family: var(--secondary-font);
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -259,8 +245,6 @@ body {
 }
 
 .footer-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   /* or 150% */
@@ -315,7 +299,6 @@ body {
 
 .portfolio-works-item {
   background-color: var(--white);
-  border: 1px solid var(--cornflower);
 }
 
 .portfolio-works-item-link {
@@ -325,7 +308,6 @@ body {
 .portfolio-works-img {
 }
 .portfolio-works-header {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -334,7 +316,6 @@ body {
   color: var(--navy-blue);
 }
 .portfolio-works-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
